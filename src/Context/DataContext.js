@@ -29,7 +29,7 @@ const [applied,Setapplied]=useState([])
         getData()
  
     },[])      
-    const getData=()=>{        axios.get("http://localhost:8080/jobs").then(({data})=>{setjobs(data)})}
+    const getData=()=>{        axios.get("https://my-jobs-board-project.herokuapp.com/jobs").then(({data})=>{setjobs(data)})}
     const createAccount=async(email,password)=>{
          try {
            await createUserWithEmailAndPassword(auth,email,password)

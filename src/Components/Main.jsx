@@ -1,7 +1,6 @@
 import { Pagination } from '@mui/material'
 import axios from 'axios'
 import React, { useContext, useRef, useState } from 'react'
-import {BsSearch} from "react-icons/bs"
 import { useNavigate } from 'react-router-dom'
 import { Data } from '../Context/DataContext'
 import SingleJob from './SingleJob'
@@ -20,7 +19,7 @@ const Main = () => {
   const navigate=useNavigate()
 
 const handleSearch=(e)=>{
-    axios.get(`http://localhost:8080/jobs?q=${e}`).then(({data})=>setResult(data))
+    axios.get(`https://my-jobs-board-project.herokuapp.com/jobs?q=${e}`).then(({data})=>setResult(data))
 }
 
   const handleFilter=(payload)=>{
@@ -42,7 +41,7 @@ const handleSearch=(e)=>{
         <input type="text" placeholder='Search jobs,companies,location,skills ' className='w-full border rounded md:h-full sm:h-12 border-gray-400 pl-4' onChange={(e)=>debounce(handleSearch,1000,e)}  />
         {/* <button className='px-3 py-1 text-xl rounded  w-auto bg-gray-600 hidden md:block'>Search</button>
         <BsSearch className='md:hidden sm:block px-3 py-1 text-xl rounded h-12 w-auto bg-gray-600'/> */}
-       <div className=' bg-gray-300 z-10 h-auto absolute w-full flex flex-col gap-2'>
+       <div className=' bg-gray-300 z-10 h-auto absolute lg:w-[75%] md:w-[90%] sm:w-full flex flex-col gap-2 top-30 m-auto'>
        {
           result?.map(e=>(
             <div key={e.id} className="flex justify-around">
