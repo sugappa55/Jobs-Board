@@ -1,14 +1,14 @@
 import { Pagination } from '@mui/material'
 import axios from 'axios'
-import React, { useContext, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import {BsSearch} from "react-icons/bs"
+import { useNavigate } from 'react-router-dom'
 import { Data } from '../Context/DataContext'
 import SingleJob from './SingleJob'
 
 const Main = () => {
   const {jobs,setjobs,getData}=useContext(Data)
-  
-  const [search,setSearch]=useState("")
+  const ref=useRef()
   const [result,setResult]=useState([])
   const [page,setPage]=useState(1)
 
@@ -17,16 +17,10 @@ const Main = () => {
       setjobs([...jobs.sort((a,b)=>a[payload]>b[payload]?1:a[payload]<b[payload]?-1:0)])
   }
 
-const handleSubmit=()=>{
-  if(search.length===0){
-    alert("Enter something to search")
-    return 
-  }
+  const navigate=useNavigate()
 
-}
-
-const handleSearch=()=>{
-    axios.get(`http://localhost:8080/jobs?q=${search}`).then(({data})=>setResult(data))
+const handleSearch=(e)=>{
+    axios.get(`http://localhost:8080/jobs?q=${e}`).then(({data})=>setResult(data))
 }
 
   const handleFilter=(payload)=>{
@@ -36,17 +30,29 @@ const handleSearch=()=>{
       return arr.includes(payload.toUpperCase())
     })])
   }
+
+
+  const debounce=(fun,delay,e)=>{
+    if(ref.current)clearTimeout(ref.current);
+    ref.current=setTimeout(()=>{fun(e.target.value)},delay)
+    }
   return (
     <div className='w-full  flex flex-col '>
-      <div className='flex lg:w-[75%] md:w-[90%] sm:w-full  md:h-16 h-12 m-auto mt-1'>
-        <input type="text" placeholder='Search jobs,companies,location,skills ' className='w-full border rounded md:h-full sm:h-12 border-gray-400 pl-4' onChange={(e)=>{
-            setSearch(e.target.value)
-            
+      <div className='  lg:w-[75%] md:w-[90%] sm:w-full  md:h-16 h-12 m-auto mt-1'>
+        <input type="text" placeholder='Search jobs,companies,location,skills ' className='w-full border rounded md:h-full sm:h-12 border-gray-400 pl-4' onChange={(e)=>debounce(handleSearch,1000,e)}  />
+        {/* <button className='px-3 py-1 text-xl rounded  w-auto bg-gray-600 hidden md:block'>Search</button>
+        <BsSearch className='md:hidden sm:block px-3 py-1 text-xl rounded h-12 w-auto bg-gray-600'/> */}
+       <div className=' bg-gray-300 z-10 h-auto absolute w-full flex flex-col gap-2'>
+       {
+          result?.map(e=>(
+            <div key={e.id} className="flex justify-around">
+              <p>{e.title}</p>
+              <button className='border px-2 py-1 border-black rounded mt-1' onClick={()=>navigate(`/jobs/${e.id}`)}>View job</button>
+            </div>
 
-        }}  />
-        <button className='px-3 py-1 text-xl rounded  w-auto bg-gray-600 hidden md:block' onClick={()=>handleSubmit()}>Search</button>
-        <BsSearch className='md:hidden sm:block px-3 py-1 text-xl rounded h-12 w-auto bg-gray-600'/>
-
+          ))
+        }
+       </div>
       </div>
       <div className='flex lg:w-[75%] md:w-[90%] sm:w-full  md:h-12 h-10 m-auto mt-1 gap-4 justify-center flex-wrap'>
         <select onChange={(e)=>handleSort(e.target.value)} className='bg-gray-300 rounded-lg'>

@@ -6,8 +6,9 @@ import {onAuthStateChanged,
     signOut,
     signInWithPopup,
     GoogleAuthProvider} from "firebase/auth"
-import { auth} from '../firebase/firebase.config'
+import { auth, db} from '../firebase/firebase.config'
 import axios from 'axios'
+import { doc, onSnapshot } from "firebase/firestore"
 
 export const Data=createContext()
 export const DataContext = ({children}) => {
@@ -90,9 +91,15 @@ const [applied,Setapplied]=useState([])
     }
     }
 
+
+
     useEffect(()=>{
         if(user){
-            axios.get(`http:localhost:8080/applied?user:${user.uid}`).then(({data})=>Setapplied(data))
+            const refAcc=doc(db,"applied",user.uid)
+            var unSubscribe=onSnapshot(refAcc,(item)=>{
+                Setapplied(item.data()?.applied)
+            })
+            return ()=>unSubscribe()
         }
     },[user])
 
