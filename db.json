@@ -1,0 +1,273 @@
+{
+    "jobs": [
+      {  "id":1,
+        "title": " Full Stack Web Development Internship cum Training Program",
+        "company": "Business Web Solutions (India)",
+        "location": "Banglore",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Integrate media queries to make the infographic mobile-friendly,",
+        "skills": ["html", "css", "javascript"],
+        
+        "salary":500000,
+        "qualification": ": Any Graduate with a PC/Laptop with internet and good understanding of English language can join, prior knowledege of web development is a plus but not mandatory."
+      },
+      {  "id":2,
+        "title": "Front End Developer - React",
+        "company": "SounderGrad",
+        "location": "hyderabad",
+        "desc": "We are looking for Frontend Developers who can develop efficient front-end, user interface components using React and implement them. You will ensure that these components and the overall application are robust and easy to maintain. You will coordinate with the rest of the team working on different layers of the infrastructure.",
+        "responsibilities": "Good handling on CSS fixes for theming and layouts      ",
+        "skills": ["React","HTML", "CSS","JavaScript"],
+        "salary":600000,
+          "qualification": "degree"
+      },
+      {  "id":3,
+        "title": "Junior React JS Developer",
+        "company": "latpass ",
+        "location": "chennai",
+        "desc": "Software Development",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["Javascript", "React" ,"JS", "CSS", "JSX", "Flux", "Redux", "HTML", "JavaScript", "Bootstrap"],
+        
+        "salary":400000,
+        "qualification": "BE/B.TECH"
+      },
+      {  "id":4,
+        "title": "Atos Is Hiring For React Js Developer!",
+        "company": "Atos-syntel",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": [ "React" ,"JS", "CSS", "JSX", "Flux"],
+        
+        "salary":500000,
+                "qualification": "MSC/MCA"
+      },
+      {  "id":5,
+        "title": "python-developer",
+        "company": "Tcs",
+        "location": "hyderabad",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["ruby","rust","shell","python"],
+        
+        "salary":400000,
+        "qualification": "degree/b.tech"
+      },
+      {  "id":6,
+        "title": "Ruby Developer",
+        "company": "wipro",
+        "location": "guragoan",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["ruby","rust","shell","python"],
+        
+        "salary":900000,
+        "qualification": "BE/B.TECH/M.TECH"
+      },
+      {  "id":7,
+        "title": "shell developer",
+        "company": "Ss solutions",
+        "location": "Chennai/noida",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["ruby","rust","shell","python"],
+        
+        "salary":300000,
+        "qualification": "BE/B.TECH/M.TECH"
+      },
+      {  "id":8,
+        "title": "HTML developer",
+        "company": "anasol",
+        "location": "Chennai/noida",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["HTML","Css","javascript"],
+        
+        "salary":300000,
+        "qualification": "BE/B.TECH/M.TECH"
+      },
+      {  "id":9,
+        "title": "React-developer",
+        "company": "Digi-solutions",
+        "location": "Chennai/noida",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["React","Redux","Mui"],
+        
+        "salary":"8000000",
+        "qualification": "BE/B.TECH/M.TECH"
+      },
+      {  "id":10,
+        "title": "Data-Analyst",
+        "company": "techie-stack",
+        "location": "Chennai/noida",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["python","Tableau","Ms-excel"],
+        
+        "salary":800000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":11,
+        "title": "java-developer",
+        "company": "Spring-Solutions",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["java","springBoot"],
+        
+        "salary":800000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":12,
+        "title": "Testing-Engineer",
+        "company": "Latpass",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["java","selenium","Cypress"],
+        
+        "salary":500000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":13,
+        "title": "React-developer",
+        "company": "stack-tech",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["React","Redux","mui","chakra-ui"],
+        
+        "salary":700000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":14,
+        "title": "java-developer",
+        "company": "Rem-solutions",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["java","oops","springBoot"],
+        
+        "salary":600000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":15,
+        "title": "python-developer",
+        "company": "Accenture",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["python","system-handling"],
+        
+        "salary":500000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":16,
+        "title": "javaScript-Developer",
+        "company": "mphasis",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["javascript","HTML","css"],
+        
+        "salary":600000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":24,
+        "title": "Html-developer",
+        "company": "ngeo",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["Html5","JavaScript","css"],
+        
+        "salary":300000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":17,
+        "title": "java-developer",
+        "company": "Amazon",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["java","selenium","Cypress","Bootstrap","springBoot"],
+        
+        "salary":500000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":18,
+        "title": "React-developer",
+        "company": "Masai",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["JavaScript","React","Redux"],
+        
+        "salary":700000,
+        "qualification": "MSC/MCA"
+      },
+      {  "id":19,
+        "title": "Associate Developer React . JS",
+        "company": "Resemble-systems",
+        "location": "chennai/Bengaluru/kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["html","css","React","Redux","git"],
+        
+        "salary":100000,
+        "qualification": "MSC/MCA"
+      }
+      ,
+      {  "id":20,
+        "title": "React.js Developer - Javascript/Node.js",
+        "company": "Hiring-systems",
+        "location": "chennai",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["html","css","React","Redux","git","Node"],
+        
+        "salary":500000,
+        "qualification": "MSC/MCA/BE/B.tech"
+      }
+      ,
+      {  "id":21,
+        "title": "Node-Js Developer",
+        "company": "Mphasis",
+        "location": "Noida",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["React","Redux","git","Node","Mongo-Db"],
+        
+        "salary":900000,
+        "qualification": "MSC/MCA/M.tech"
+       }
+      ,
+      {  "id":22,
+        "title": "Associate Developer JavaScript",
+        "company": "PaceBright",
+        "location": "chennai",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["html","css","JavaScript","git","gitbash"],
+        
+        "salary":500000,
+        "qualification": "MSC/MCA"
+      }
+      ,
+      {  "id":23,
+        "title": "React-Native Developer",
+        "company": "Goldman_sach",
+        "location": "kochi",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "responsibilities": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta cumque est quas mollitia fugiat veniam inventore. Ullam consequatur exercitationem sapiente neque rem obcaecati ipsum libero blanditiis quasi vitae! Molestiae.",
+        "skills": ["html","css","javascript","React","Redux","git"],
+        
+        "salary":400000,
+        "qualification": "MSC/MCA"
+      }
+    ],
+    "wishlist":[],
+    "applied":[]
+  }
